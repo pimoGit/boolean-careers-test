@@ -1,0 +1,48 @@
+// main Scss for the index
+
+//SET UP
+
+// mixins
+
+@mixin normalize-spaces {
+    margin: 0; padding: 0; border: 0; line-height: 100%;
+  }
+  
+
+// basics 
+* {
+    box-sizing: border-box;
+     font-size: 100%;
+    @include normalize-spaces;
+}
+
+body { 
+    background-color: #fff;
+    @include normalize-spaces;
+    color: #33475b;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.625;
+}
+
+ul { list-style-type: none;
+    li { display: inline-block; }
+}
+
+.centered-bloc {
+    max-width: 1080px;
+    margin: 0 auto;   
+}
+
+
+//MAIN
+
+
+#navbar-top { 
+    background-color: #f5f8fa;     
+    border-bottom: 1px solid #cbd6e2;
+    padding: 13px;
+
+    .navbar-top__left {
+        a { text-decoration: none; font-size: 0.875rem; font-weight: 500; padding: 0.75rem 0; color: inherit;}
+    }
+}

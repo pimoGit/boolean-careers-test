@@ -1,0 +1,48 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 100%;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 100%;
+  color: #33475b;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.625;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.centered-bloc {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#navbar-top {
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  padding: 13px;
+}
+
+#navbar-top .navbar-top__left a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75rem 0;
+  color: inherit;
+}
+/*# sourceMappingURL=style.css.map */
