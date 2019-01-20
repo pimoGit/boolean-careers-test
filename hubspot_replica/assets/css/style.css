@@ -35,14 +35,52 @@ ul li {
 #navbar-top {
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
-  padding: 13px;
+  height: 74px;
+}
+
+#navbar-top .navbar-top__left {
+  padding: 24px 0;
 }
 
 #navbar-top .navbar-top__left a {
+  display: inline-block;
+  height: 26px;
+  padding-top: 4px;
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 500;
-  padding: 0.75rem 0;
   color: inherit;
+  line-height: 14px;
+}
+
+#navbar-top .navbar-top__left a .text {
+  display: inline-block;
+  height: 21px;
+  ine-height: 14px;
+  font-size: 14px;
+  height: 26px;
+  position: relative;
+  top: -7px;
+}
+
+#navbar-top .navbar-top__left a .ico::before {
+  content: url("../imgs/language-switcher-icon.svg");
+  display: inline-block;
+  width: 16px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+#navbar-top .navbar-top__left a i {
+  font-size: 1.3rem;
+  color: #7c98b6;
+  margin-left: 12px;
+  position: relative;
+  top: -4px;
+}
+
+#navbar-top .navbar-top__left a:first-child {
+  border-right: solid 1px #CBD6E2;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
