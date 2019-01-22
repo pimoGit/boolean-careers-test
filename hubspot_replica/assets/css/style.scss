@@ -37,20 +37,68 @@ ul { list-style-type: none;
 
 //MAIN
 
-
+//header
 #navbar-top { 
     background-color: #f5f8fa;     
     border-bottom: 1px solid #cbd6e2;
-    height: 74px;
+    padding: 24px 0;
 
-    .navbar-top__left { padding: 24px 0;
-        a { display: inline-block; height: 26px; padding-top: 4px;
+    .navbar-top__left {  
+        ul { display: flex; flex-direction: row;
+            li{ align-self: center;
+                &:first-child { border-right: solid 1px #CBD6E2; padding-right: 19px; margin-right: 19px; align-self: center;}
+            }
+        }
+        a { display: inline-block; height: 26px; /* padding-top: 4px; */ display: flex; flex-direction: row; 
             text-decoration: none; font-size: 14px; font-weight: 500; color: inherit; 
-            .text { display: inline-block; height: 21px;  font-size: 14px; height: 26px; position: relative; top: -7px;}
-            .ico::before{content: url("../imgs/language-switcher-icon.svg"); display: inline-block; width: 16px; height: 21px;
-                margin-right: 10px;}
-            i { font-size: 1.3rem; color: #7c98b6;  margin-left: 12px; position: relative; top: -4px;}
-        &:first-child { border-right: solid 1px #CBD6E2; padding-right: 10px;}
+            .text { display: inline-block;  font-size: 14px; /* height: 26px; position: relative; top: -7px; */ align-self: center;}
+            .ico::before{content: url("../imgs/language-switcher-icon.svg"); display: inline-block; width: 16px; height: 26px;
+                margin-right: 10px; align-self: center; padding-top: 3px;}
+            i { font-size: 1.3rem; color: #7c98b6;  margin-left: 12px; /* position: relative; top: -4px; */ align-self: center;}
         }
     }
+}
+#navbar-main { 
+    background-color: #fff;
+    padding: 29px 0;
+
+}
+
+    //SECTIONS
+
+//hero
+.section-hero{
+        background-image: linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
+        border-bottom: 2px solid #33475b;
+        padding: 90px 0 125px 0;
+        position: relative;
+        .section-hero__band-bottom{background: #ADEBE4; height: 74px; border-top: 2px solid #33475b; 
+            position: absolute; bottom: 0; left: 0; right: 0;}
+
+
+}
+
+//growth-stack
+.section-growth-stack{
+    background-color: #F5F8FA;
+    padding: 90px 0 125px 0;
+}
+
+//community-board
+.section-community-board{
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    padding: 120px 0;
+}
+
+//customers
+.section-customers{
+    background-color: #fff;
+    padding: 120px 0 180px 0;
+}
+
+
+//FOOTER
+footer{
+    background-color: #32475C;
+    padding: 80px 0 40px 0;
 }
