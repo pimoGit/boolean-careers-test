@@ -1,0 +1,33 @@
+// main Scss for the HP Sections
+
+    //SECTIONS
+
+//hero
+.section-hero{
+        background-image: linear-gradient(to top right, #425b76, #0091b0, #00a4bd, #7fd1de);
+        border-bottom: 2px solid #33475b;
+        padding: 90px 0 125px 0;
+        position: relative;
+        .section-hero__band-bottom{background: #ADEBE4; height: 74px; border-top: 2px solid #33475b; 
+            position: absolute; bottom: 0; left: 0; right: 0;}
+
+
+}
+
+//growth-stack
+.section-growth-stack{
+    background-color: #F5F8FA;
+    padding: 90px 0 125px 0;
+}
+
+//community-board
+.section-community-board{
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    padding: 120px 0;
+}
+
+//customers
+.section-customers{
+    background-color: #fff;
+    padding: 120px 0 180px 0;
+}
