@@ -44,17 +44,17 @@ ul { list-style-type: none;
     padding: 24px 0;
 
     .navbar-top__left {  
-        ul { display: flex; flex-direction: row;
-            li{ align-self: center;
-                &:first-child { border-right: solid 1px #CBD6E2; padding-right: 19px; margin-right: 19px; align-self: center;}
+        ul { display: flex; flex-direction: row; align-items:center;
+            li{ 
+                &:first-child { border-right: solid 1px #CBD6E2; padding-right: 19px; margin-right: 19px; }
             }
         }
-        a { display: inline-block; height: 26px; /* padding-top: 4px; */ display: flex; flex-direction: row; 
+        a { display: inline-block; height: 26px; /* padding-top: 4px; */ display: flex; flex-direction: row; align-items:center;
             text-decoration: none; font-size: 14px; font-weight: 500; color: inherit; 
-            .text { display: inline-block;  font-size: 14px; /* height: 26px; position: relative; top: -7px; */ align-self: center;}
+            .text { display: inline-block;  font-size: 14px; /* height: 26px; position: relative; top: -7px; */}
             .ico::before{content: url("../imgs/language-switcher-icon.svg"); display: inline-block; width: 16px; height: 26px;
-                margin-right: 10px; align-self: center; padding-top: 3px;}
-            i { font-size: 1.3rem; color: #7c98b6;  margin-left: 12px; /* position: relative; top: -4px; */ align-self: center;}
+                margin-right: 10px; padding-top: 5px;}
+            i { font-size: 1.3rem; color: #7c98b6;  margin-left: 12px; /* position: relative; top: -4px; */}
         }
     }
 }
