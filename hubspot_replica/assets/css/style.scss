@@ -84,15 +84,45 @@ ul { list-style-type: none;
 footer{
     background-color: #32475C;
     padding: 80px 0 40px 0;
+    a{color: #cbd6e2; text-decoration: none;
+        &:hover{ color: #7fd1de;}
+    }
     .footer__nav{
-        ul.wrapper{display: flex; flex-direction: row; align-items:center; justify-content: space-between;
+        ul.wrapper{display: flex; flex-direction: row; align-items: flex-start;  justify-content: space-between;
             label { color: #fff; font-size: 16px; font-weight: bold;}
             ul { margin-top: 10px;
-                li{ display: block; padding: 10px 0; }
+                li{ display: block; padding: 10px 0; 
+                    &.contact {
+                        .contact__button{ font-size: 0.75rem; color: #32475C; background-color: #fff; display: inline-block; padding: 10px; border-radius: .1875rem;
+                            &:hover{ color: #32475C; background-color: rgba(255,255,255,0.9); transition: 0.15s background-color ease-out;}
+                        }
+                    }
+                    &.social{
+                        a{ margin-left: 15px;
+                            i{color: #cbd6e2; font-size: 16px;}
+                            &:hover i{ color: #7fd1de;}
+                            &:first-child { margin: 0;}
+                        }
+                    }
+                }
             }
-        a{color: #cbd6e2; font-size: 15px; text-decoration: none;
-            &:hover{ color: #7fd1de;}
+            a{font-size: 15px;
+                i { font-size: 1.1rem; color: #fff;  margin-left: 6px; }
+            }
         }
+
+    }
+    .footer__language {
+        margin: 60px 0 40px 0; text-align: center;
+        a { font-size: 16px; margin:0 14px;}
+    }
+    .footer__bottom { display: flex; flex-direction: row; align-items: flex-start; justify-content: space-between;
+        padding: 32px 0; border-top: solid 1px #6984A0;
+        .footer__logo{
+            .logo-copy{ display: block; color: #cbd6e2; font-size: 0.7rem; margin-top: 10px;}
+        }
+        .legal-links{ padding-top: 10px;
+            a { margin-right: 18px;}
         }
     }
 }

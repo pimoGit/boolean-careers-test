@@ -206,6 +206,15 @@ footer {
   padding: 80px 0 40px 0;
 }
 
+footer a {
+  color: #cbd6e2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #7fd1de;
+}
+
 footer .footer__nav ul.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,9 +223,9 @@ footer .footer__nav ul.wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -237,13 +246,89 @@ footer .footer__nav ul.wrapper ul li {
   padding: 10px 0;
 }
 
-footer .footer__nav ul.wrapper a {
-  color: #cbd6e2;
-  font-size: 15px;
-  text-decoration: none;
+footer .footer__nav ul.wrapper ul li.contact .contact__button {
+  font-size: 0.75rem;
+  color: #32475C;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: .1875rem;
 }
 
-footer .footer__nav ul.wrapper a:hover {
+footer .footer__nav ul.wrapper ul li.contact .contact__button:hover {
+  color: #32475C;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-transition: 0.15s background-color ease-out;
+  transition: 0.15s background-color ease-out;
+}
+
+footer .footer__nav ul.wrapper ul li.social a {
+  margin-left: 15px;
+}
+
+footer .footer__nav ul.wrapper ul li.social a i {
+  color: #cbd6e2;
+  font-size: 16px;
+}
+
+footer .footer__nav ul.wrapper ul li.social a:hover i {
   color: #7fd1de;
+}
+
+footer .footer__nav ul.wrapper ul li.social a:first-child {
+  margin: 0;
+}
+
+footer .footer__nav ul.wrapper a {
+  font-size: 15px;
+}
+
+footer .footer__nav ul.wrapper a i {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-left: 6px;
+}
+
+footer .footer__language {
+  margin: 60px 0 40px 0;
+  text-align: center;
+}
+
+footer .footer__language a {
+  font-size: 16px;
+  margin: 0 14px;
+}
+
+footer .footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 32px 0;
+  border-top: solid 1px #6984A0;
+}
+
+footer .footer__bottom .footer__logo .logo-copy {
+  display: block;
+  color: #cbd6e2;
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+
+footer .footer__bottom .legal-links {
+  padding-top: 10px;
+}
+
+footer .footer__bottom .legal-links a {
+  margin-right: 18px;
 }
 /*# sourceMappingURL=style.css.map */
