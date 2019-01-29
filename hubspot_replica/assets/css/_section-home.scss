@@ -8,6 +8,15 @@
         border-bottom: 2px solid #33475b;
         padding: 90px 0 125px 0;
         position: relative;
+
+        .section-hero__content {
+            max-width: 430px; text-align: left; color: #fff; 
+            h1 {font-size: 54px; line-height:120%; font-weight:bold; margin-bottom: 30px;}
+            p { margin:0 0 20px 0; line-height:170%;}
+            a { @extend %button-white; font-size: 16px; padding:30px 50px; margin-bottom: 20px; }
+            .micro-copy { max-width: 220px;}
+        }
+
         .section-hero__band-bottom{background: #ADEBE4; height: 74px; border-top: 2px solid #33475b; 
             position: absolute; bottom: 0; left: 0; right: 0;}
 
@@ -18,6 +27,16 @@
 .section-growth-stack{
     background-color: #F5F8FA;
     padding: 90px 0 125px 0;
+
+    .section-growth-stack__head { 
+        max-width: 800px;
+        margin: 0 auto;
+        color: #33475b;
+        text-align: center;
+        img {max-width: 260px;}
+        h2{ margin-bottom: 20px; margin-top: 0; font-size: 32px;}
+        p { margin: 0; line-height:170%; }
+    }
 }
 
 //community-board
