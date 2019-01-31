@@ -1,16 +1,41 @@
-* { margin: 0; padding: 0; border: 0;}
+/*GENERAL*/
+* { margin: 0; padding: 0; border: 0; font-family: Arial, Helvetica, sans-serif;}
 
 ul{ list-style-type: none;}
 
+.copy { 
+    margin: 10px;  
+    color: white;
+}
 
+
+/*HEADER*/
 header {
     text-align: center;
     padding: 50px;
     background-color: brown;
     color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
+header nav { margin-top: 40px;}
 header ul li { display: inline; padding: 10px;}
 header a { color: lightblue; text-decoration: none;}
+header .copy {font-size: 14px;}
+
+
+/* SECTIONS */
+section { margin: 20px;}
+
+section p { line-height: 150%;}
+
+/* FOOTER */
+footer {
+    padding:50px;
+    background-color: brown;
+    font-size: 16px;
+}
+
+footer ul li { display: block; padding: 10px;}
+footer a { color: lightblue; text-decoration: none;}
+footer .copy {font-size: 12px;}
