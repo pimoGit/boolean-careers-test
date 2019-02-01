@@ -1,0 +1,44 @@
+/*GENERAL*/
+* { margin: 0; padding: 0; border: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{ list-style-type: none;}
+
+.copy { margin: 10px;  color: white;}
+
+/*variables*/
+$main-color: brown;
+$link-color: lightblue;
+
+/*HEADER*/
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: $main-color;
+    color: $link-color;
+    font-size: 16px;
+
+    nav { margin-top: 40px;}
+    ul li { display: inline; padding: 10px;}
+    a { color: $link-color; text-decoration: none;}
+    .copy {font-size: 14px;}
+}
+
+
+/* SECTIONS */
+@import 'section-hp';
+
+/* FOOTER */
+footer {
+    padding:50px;
+    background-color: $main-color;
+    font-size: 16px;
+}
+
+footer ul li { display: block; padding: 10px;}
+footer a { color: $link-color; text-decoration: none;}
+footer .copy {
+    font-size: 12px; border-top: solid 1px #fff;
+    padding-top: 10px;
+}

@@ -23,7 +23,10 @@ header .copy {font-size: 14px;}
 
 
 /* SECTIONS */
-section { margin: 20px;}
+section { 
+    margin: 20px;
+}
+
 section p { line-height: 150%;}
 section p a { font-size: 14px; text-decoration: none;}
 section p a.link1 { color: red; }

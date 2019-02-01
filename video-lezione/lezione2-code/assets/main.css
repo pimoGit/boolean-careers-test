@@ -1,0 +1,91 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.copy {
+  margin: 10px;
+  color: white;
+}
+
+/*variables*/
+/*HEADER*/
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: brown;
+  color: lightblue;
+  font-size: 16px;
+}
+
+header nav {
+  margin-top: 40px;
+}
+
+header ul li {
+  display: inline;
+  padding: 10px;
+}
+
+header a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+header .copy {
+  font-size: 14px;
+}
+
+/* SECTIONS */
+/* SECTIONS */
+section {
+  margin: 20px;
+}
+
+section p {
+  line-height: 150%;
+}
+
+section p a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+section p a.link1 {
+  color: yellow;
+}
+
+section p a.link2 {
+  color: purple;
+}
+
+/* FOOTER */
+footer {
+  padding: 50px;
+  background-color: brown;
+  font-size: 16px;
+}
+
+footer ul li {
+  display: block;
+  padding: 10px;
+}
+
+footer a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+footer .copy {
+  font-size: 12px;
+  border-top: solid 1px #fff;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */

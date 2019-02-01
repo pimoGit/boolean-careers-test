@@ -1,0 +1,14 @@
+/* SECTIONS */
+section { 
+    margin: 20px;
+
+     p { line-height: 150%;
+
+        a { font-size: 14px; text-decoration: none;
+            &.link1 { color: yellow; }
+            &.link2 { color: purple; }
+        }
+    
+    }
+
+}
